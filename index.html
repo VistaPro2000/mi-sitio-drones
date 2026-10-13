@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video con dron para lotes, fraccionamientos, casas y locales</title>
+  <meta name="description" content="Vuelo de dron, grabación con cámara profesional y estabilizador, y edición de video en alta calidad para lotes, fraccionamientos, casas y locales comerciales.">
+  <meta name="theme-color" content="#07161B">
+  <meta property="og:title" content="Video con dron para lotes, fraccionamientos, casas y locales">
+  <meta property="og:description" content="Muestra tu propiedad desde el aire con video profesional en alta calidad.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio" data-nombre>Tu Marca Aérea</a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#proceso">Cómo trabajo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn--amber btn--small" data-wa href="#contacto">Cotizar</a>
+  </header>
+
+  <!-- Altímetro: sube conforme bajas por la página -->
+  <aside class="alt" id="alt" aria-hidden="true">
+    <div class="alt__ruler"><span class="alt__marker" id="altMarker"></span></div>
+    <div class="alt__read"><span id="altValue">0</span> m</div>
+  </aside>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="hero__media">
+        <video id="heroVideo" autoplay muted loop playsinline preload="auto" poster="assets/images/hero.jpg">
+          <source src="assets/videos/hero.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero__shade"></div>
+      <div class="hero__vf" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="hero__rec" aria-hidden="true"><b></b> rec <span id="recTime">00:00</span></div>
+
+      <div class="wrap hero__content">
+        <h1 class="hero__title">
+          <span class="line"><span>Tu terreno,</span></span>
+          <span class="line"><span>visto desde donde</span></span>
+          <span class="line"><span>mejor se vende.</span></span>
+        </h1>
+        <p class="hero__lead">
+          Video con dron, cámara profesional y estabilizador, con edición en alta calidad para lotes, fraccionamientos, casas y locales comerciales.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--amber" data-wa href="#contacto">Cotizar por WhatsApp</a>
+          <a class="btn btn--ghost" href="#trabajos">Ver trabajos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICIOS ================= -->
+    <section class="sec sec--paper" id="servicios">
+      <div class="wrap split">
+        <div class="split__head">
+          <h2 class="h2">Lo que grabo</h2>
+          <p class="muted">Cada tipo de propiedad se cuenta distinto. Elijo los ángulos, la altura y el recorrido según lo que quieres mostrar.</p>
+        </div>
+
+        <ul class="services">
+          <li class="service">
+            <h3>Lotes</h3>
+            <p>Ubicación, tamaño y entorno reales: accesos, calles cercanas, servicios y vista del terreno desde distintas alturas.</p>
+          </li>
+          <li class="service">
+            <h3>Fraccionamientos</h3>
+            <p>Recorrido aéreo completo del desarrollo, avance de obra, áreas verdes, amenidades y conexión con las vías principales.</p>
+          </li>
+          <li class="service">
+            <h3>Casas</h3>
+            <p>Fachada, jardín, alberca y colonia desde el aire, más interiores grabados con cámara profesional y estabilizador.</p>
+          </li>
+          <li class="service">
+            <h3>Locales comerciales</h3>
+            <p>Ubicación, accesos, estacionamiento y cercanía con avenidas y negocios, para que el cliente entienda el flujo del lugar.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= TRABAJOS ================= -->
+    <section class="sec sec--ink" id="trabajos">
+      <div class="wrap">
+        <div class="head-row">
+          <h2 class="h2">Trabajos</h2>
+          <p class="muted">Toca un video o una foto para verla completa.</p>
+        </div>
+        <div class="grid" id="grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESO ================= -->
+    <section class="sec sec--paper" id="proceso">
+      <div class="wrap split">
+        <div class="split__head">
+          <h2 class="h2">Cómo trabajo</h2>
+          <p class="muted">Cuatro pasos, desde el primer mensaje hasta recibir tu video listo para publicar.</p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <h3>Me cuentas qué quieres mostrar</h3>
+            <p>Me escribes por WhatsApp con el tipo de propiedad y la ubicación. Te doy una cotización y agendamos fecha.</p>
+          </li>
+          <li>
+            <h3>Voy y grabo</h3>
+            <p>Reviso la zona, planeo los vuelos y grabo con dron y con cámara en estabilizador, buscando la mejor luz del día.</p>
+          </li>
+          <li>
+            <h3>Edito en alta calidad</h3>
+            <p>Corte, color, música y títulos con tu información. Cuidamos que el video se vea limpio en celular y en pantalla grande.</p>
+          </li>
+          <li>
+            <h3>Recibes tu video</h3>
+            <p>Te lo envío listo para anuncios, redes sociales y tu página web.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= EQUIPO ================= -->
+    <section class="sec sec--deep" id="equipo">
+      <div class="wrap gear">
+        <h2 class="h2">Con qué grabo</h2>
+        <div class="gear__cols">
+          <div>
+            <h3>Dron</h3>
+            <p>Tomas aéreas estables y recorridos suaves sobre terrenos, desarrollos y fachadas.</p>
+          </div>
+          <div>
+            <h3>Cámara profesional</h3>
+            <p>Imagen nítida y buen manejo de luz para exteriores e interiores.</p>
+          </div>
+          <div>
+            <h3>Estabilizador</h3>
+            <p>Caminatas y recorridos fluidos, sin movimientos bruscos.</p>
+          </div>
+          <div>
+            <h3>Edición</h3>
+            <p>Montaje, corrección de color y sonido para un acabado profesional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="sec sec--ink" id="contacto">
+      <div class="wrap split">
+        <div class="split__head">
+          <h2 class="h2">Pide tu cotización</h2>
+          <p class="muted">Llena los datos y se abre WhatsApp con tu mensaje listo para enviar. Respondo lo antes posible.</p>
+          <p class="contact-line">
+            <a data-wa href="#contacto" class="link">Escribir directo por WhatsApp</a>
+          </p>
+          <p class="contact-line" id="emailLine" hidden>
+            <a class="link" id="emailLink" href="#"></a>
+          </p>
+        </div>
+
+        <form class="form" id="form" novalidate>
+          <label>
+            <span>Tu nombre</span>
+            <input type="text" name="nombre" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Tipo de propiedad</span>
+            <select name="tipo" required>
+              <option value="" disabled selected>Elige una opción</option>
+              <option>Lote</option>
+              <option>Fraccionamiento</option>
+              <option>Casa</option>
+              <option>Local comercial</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>
+            <span>Ubicación</span>
+            <input type="text" name="ubicacion" placeholder="Colonia o ciudad">
+          </label>
+          <label>
+            <span>¿Qué quieres lograr con el video?</span>
+            <textarea name="mensaje" rows="4" placeholder="Por ejemplo: vender un lote, promocionar un fraccionamiento…"></textarea>
+          </label>
+          <p class="form__error" id="formError" role="alert" hidden></p>
+          <button class="btn btn--amber" type="submit">Enviar por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__row">
+      <span data-nombre>Tu Marca Aérea</span>
+      <span class="muted" id="footCiudad"></span>
+      <span class="muted">© <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <!-- Visor de fotos y videos -->
+  <dialog class="lb" id="lb" aria-label="Visor">
+    <button class="lb__close" id="lbClose" aria-label="Cerrar">Cerrar</button>
+    <div class="lb__body" id="lbBody"></div>
+  </dialog>
+
+  <script src="galeria.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

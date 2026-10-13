@@ -18,4 +18,5 @@ window.GALERIA = [
   { tipo: "imagen", src: "assets/images/Playa.jpg" },
   { tipo: "imagen", src: "assets/images/Qroo.jpg" },
   { tipo: "imagen", src: "assets/images/Zhotelera.jpg" },
+  { tipo: "imagen", src: "assets/images/logo.png" },
 ];

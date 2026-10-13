@@ -11,7 +11,7 @@
   --muted-dark: #4d6a70;
   --muted-light: #9db8b8;
 
-  --font-display: "Unbounded", system-ui, sans-serif;
+  --font-display: "Archivo Black", system-ui, sans-serif;
   --font-body: "Instrument Sans", system-ui, sans-serif;
 
   --gutter: clamp(20px, 5vw, 64px);
@@ -504,3 +504,4 @@ h3 {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .hero__title .line > span { transform: none; }
 }
+   .nav__brand img { height: 36px; width: auto; }

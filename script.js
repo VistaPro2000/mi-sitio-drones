@@ -3,7 +3,7 @@
    ===================================================== */
 const CONFIG = {
   nombre: "Vista Pro",          // Nombre de tu negocio
-  whatsapp: "9612710375",         // Con código de país, sin + ni espacios (México: 521 + 10 dígitos)
+  whatsapp: "9987688660",         // Con código de país, sin + ni espacios (México: 521 + 10 dígitos)
   email: "vistapro.proyectos@gmail.com",                         // Opcional. Déjalo vacío para ocultarlo
   ciudad: "Cancún,Q. roo, México", // Texto del pie de página
   mensajeInicial: "Hola, me interesa una cotización de video con Vista Pro"
